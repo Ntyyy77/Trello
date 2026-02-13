@@ -11,7 +11,7 @@ CXXFLAGS = -std=c++17 -Wall -I.
 LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
 
 # Fichiers sources
-SRC = main.cpp board.cpp list.cpp card.cpp filemanager.cpp
+SRC = main.cpp ui.cpp menu.cpp
 
 # Fichiers objets générés
 OBJ = $(SRC:.cpp=.o)
